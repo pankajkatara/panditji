@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <input type="text" placeholder="enter your age" id="year" style="padding: 10px;background-color: rgba(161, 129, 129, 0.237);font-size: 20px;border-radius: 20px;">
+    <button type="button" onclick="check()" style="padding: 14px;border-radius: 20px;color:black;background-color: blue;">check</button>
+    </center>
+
+
+    <script>
+        bebagger
+        function check(){
+            var age=document.getElementById('year').value;
+            var checkage=2023-age;
+
+            if(checkage>=18){
+                alert(true)
+            }
+
+            else{
+                alert(false)
+            }
+        }
+    </script>
+</body>
+</html>
